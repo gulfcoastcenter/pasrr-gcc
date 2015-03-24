@@ -1,0 +1,17 @@
+*ECPASRR PASRR Progress Notes Menu
+***********************************************************************
+GROUP01 CLIENT
+GROUP02 Notes
+GROUP03 Other
+*
+*ITEM0101 BUIPID BUIPID Specify Client
+ITEM0101 BUIPUSC getLiveClient() Specify Client
+*
+ITEM0201 BUIPUSC PASRRWrap(ECRPSR3) ID PASRR Encounter Note
+ITEM0202 BUIPUSC PASRRWrap(ECRPSR4) ID PASRR Staff Only Note
+ITEM0203 BUIPUSC PASRRWrap(ECMHPSR3) MI PASRR Encounter Note
+ITEM0204 BUIPUSC PASRRWrap(ECMHPSR4) MI PASRR Staff Only Note
+*
+ITEM0301 BUIPUSC PASRRWrap(ECPASRWR) PASRR Event Rollup
+ITEM0302 BUIPUSC PASRRLetter() PASRR MFH Letter
+IDDB 2

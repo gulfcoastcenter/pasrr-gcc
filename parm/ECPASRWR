@@ -1,0 +1,52 @@
+** PASRRWrap Options
+*
+callNoteScript N
+callReviewScript Y
+usc_pasrr_review PASRRFinEv
+*
+useGlobalID Y
+useIdPicker N
+IdPickerLib lib_CLIENT
+*
+staffNeedAuth Y
+*tim
+staffWithAuth-1 1869
+*donna
+staffWithAuth-2 264
+*sharon
+staffWithAuth-3 1509
+*Geraldine
+staffWithAuth-4 1000
+*Tamera
+staffWithAuth-5 51
+*Melissa
+staffWithAuth-6 913
+*
+** PASRRFinEv Options
+*
+*Billing Codes
+SVC_IDD_Bill 6812
+SVC_IDD_NoBIll 0
+SVC_IDD_Final 6813
+*
+SVC_MI_Bill 6811
+SVC_MI_NoBIll 0
+SVC_MI_Final 6810
+*
+clientpick_lib lib_CLIENT
+*
+email_billstaff-1 tim@gulfcoastcenter.org
+email_billstaff-2 donnag@gulfcoastcenter.org
+email_billstaff-3 sharonb@gulfcoastcenter.org
+email_billstaff-4 geraldinej@gulfcoastcenter.org
+email_billstaff-5 tameray@gulfcoastcenter.org
+email_billstaff-6 melisam@gulfcoastcenter.org
+*
+usc_addevent PASRRBilling
+*
+** PASRRBilling options
+*
+allowNoFlags Y
+RunMode P
+skip_billed Y
+skip_rolled Y

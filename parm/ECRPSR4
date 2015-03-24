@@ -1,0 +1,20 @@
+*ECRPSR3  IDD PASRR Encounter Note                                              
+NTEVENT Y                                                                       
+CALCENDTIME Y                                                                   
+CNP Y                                                                           
+*NTRPTCALL1 DIAGNOSIS C.DXREC C.DXDATE                                          
+NTTEXTLABEL1 Goals/Action/Steps Addressed                                       
+                                                                                
+RPTTITLE IDD PASRR Encounter Note                                               
+NTAFTERSCRIPT PNEENTRY 1,2,3,4,5                                                
+NOTETYPE ECRPSR4                                                                
+NTHEADER IDD PASRR Encounter Note                                               
+RPTFORMNAME IDD PASRR Encounter Note                                            
+*                                                                               
+*PASRRWrap Options                                                              
+useGlobalId N                                                                   
+useIdPicker Y                                                                   
+IdPickerLib lib_CLIENT                                                          
+callNoteScript Y                                                                
+usc_note eBASE_notes                                                            
+callReviewScript N                                                              
