@@ -50,3 +50,6 @@ allowNoFlags Y
 RunMode P
 skip_billed Y
 skip_rolled Y
+*
+EnableCBA Y
+CBA_LIB lib_CARE
